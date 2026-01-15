@@ -16,14 +16,6 @@
 
 body {
     font-family: 'Source Pro Code', monospace;
-    display: flex;
-    flex-direction: column; /*stacks flexbox children vertically*/
-    min-height: 100vh; /*ensure body takes up full viewport*/
-    margin: 0;
-}
-
-main {
-    flex: 1;
 }
 
 /*header styling*/
@@ -39,7 +31,6 @@ header {
 }
 
 #logo {
-    color: #888;
     padding-left: 20px;
     font-size: 1.5em;
     font-weight: bold;
@@ -54,44 +45,12 @@ nav ul { /*specifically styling the unordered list in the navbar*/
 
 nav ul li a { /*specifically styling the unordered list item links in the navbar*/
     color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px 15px;
+    font-size: 1em;
+    padding: 20px 55px;
     display: block; /*makes entire padding area clickable to corresponding link*/
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover { /*specifically styling the hover state of the unordered list item links in the navbar*/
     background-color: #555;
-}
-
-
-/*footer styling*/
-footer {
-    /*temp colors*/
-    background-color: #555;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    align-items: center;
-}
-
-#contact ul { /*specifically styling the unordered list in the contact links*/
-    list-style-type: none; /*removes bullet points + other styling*/
-    display: flex; /*flexboxes allow for horizontal display*/
-    justify-content: center;
-    padding-right: 20px;
-}
-
-#contact ul li { /*specifically styling the unordered list item links in the contact links*/
-    color: white;
-    text-decoration: none;
-    font-size: 20px; /*temp*/
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px 15px;
-    display: block; /*makes entire padding area clickable to corresponding link*/
-    transition: background-color 0.3s;
 }

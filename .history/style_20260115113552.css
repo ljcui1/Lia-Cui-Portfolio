@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.source-code-pro- {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*set background color*/
+}
+
+body {
+    font-family: 'Source Pro Code', monospace;
+}
+
+/*header styling*/
+header {
+    /*temp colors*/
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*navbar styling*/
+nav ul { /*specifically styling the unordered list in the navbar*/
+    list-style-type: none; /*removes bullet points + other styling*/
+    display: flex; /*flexboxes allow for horizontal display*/
+    padding-right: 20px;
+}
+
+nav ul li a { /*specifically styling the unordered list item links in the navbar*/
+    color: white;
+    padding: 10px 15px;
+    display: block; /*makes entire padding area clickable to corresponding link*/
+    transition: background-color 0.3s;
+}

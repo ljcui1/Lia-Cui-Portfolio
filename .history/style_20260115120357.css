@@ -81,17 +81,5 @@ footer {
 #contact ul { /*specifically styling the unordered list in the contact links*/
     list-style-type: none; /*removes bullet points + other styling*/
     display: flex; /*flexboxes allow for horizontal display*/
-    justify-content: center;
     padding-right: 20px;
-}
-
-#contact ul li { /*specifically styling the unordered list item links in the contact links*/
-    color: white;
-    text-decoration: none;
-    font-size: 20px; /*temp*/
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 10px 15px;
-    display: block; /*makes entire padding area clickable to corresponding link*/
-    transition: background-color 0.3s;
 }

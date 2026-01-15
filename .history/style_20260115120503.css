@@ -88,7 +88,7 @@ footer {
 #contact ul li { /*specifically styling the unordered list item links in the contact links*/
     color: white;
     text-decoration: none;
-    font-size: 20px; /*temp*/
+    font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px 15px;
